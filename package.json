@@ -1,0 +1,28 @@
+{
+  "name": "student-attendance-management-system",
+  "version": "1.0.0",
+  "description": "Student Attendance Management System with MongoDB Aggregation Analytics for BCSE302P Database Systems Lab Review 3",
+  "main": "backend/server.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "seed": "npm --prefix backend run seed",
+    "start": "npm --prefix backend start",
+    "install:all": "npm install && npm --prefix backend install && npm --prefix frontend install"
+  },
+  "keywords": [
+    "mongodb",
+    "mongoose",
+    "express",
+    "react",
+    "attendance-management",
+    "database-systems",
+    "vit"
+  ],
+  "author": "BCSE302P Student",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
