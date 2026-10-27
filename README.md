@@ -156,9 +156,6 @@ Implemented in `backend/controllers/analyticsController.js` and exposed in the *
 │   └── tailwind.config.js # Modern styling system
 ├── DATABASE_DESIGN.md     # Comprehensive database schema documentation
 ├── USER_MANUAL.md         # Walkthrough guide for Admin & Faculty
-├── FINAL_REPORT.md        # Formatted BCSE302P Review 3 final report
-├── PRESENTATION_SLIDES.md # 8-10 slide presentation script
-├── VIVA_QUESTIONS.md      # Expected viva review questions & answers
 └── README.md              # Project instructions (this file)
 ```
 
